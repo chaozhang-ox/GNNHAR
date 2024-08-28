@@ -1,11 +1,13 @@
 # Forecasting Realized Volatility with Spillover Effects: Perspectives from Graph Neural Networks
 
-This is the README file for the project "Forecasting Realized Volatility with Spillover Effects: Perspectives from Graph Neural Networks". It provides an overview of the project structure and instructions on how to use the codebase.
+This is the README file for the project "Forecasting Realized Volatility with Spillover Effects: Perspectives from Graph Neural Networks". It provides an overview of the project structure and instructions on how to use and contribute to the codebase.
 
 ## Table of Contents
 
 - [Project Structure](#project-structure)
 - [Usage](#usage)
+- [Data](#data)
+- [Computing Environment](#computing-environment)
 
 ## Project Structure
 
@@ -28,5 +30,21 @@ To use the project, follow these steps:
 2. Run data_subsample.py and compute_vol.py sequentially
 3. Run GHAR.py to obtain the baseline forecasts from linear regressions
 4. Run GNNHAR.py to obtain the forecasts for proposed GNNHAR models
-5. Compare their forecasts by using Summary_Results.py and Summary_Regime.py. 
+5. Compare their forecasts by using Summary_Results.py and Summary_Regime.py
 6. Generate plots by BoxPlot_Error.py
+
+
+## Data
+The data used in this reproducibility check is LOBSTER, which users need to purchase. 
+
+## Computing Environment
+To run the reproducibility check, the following computing environment and package(s) are required:
+- Environment: These experiments were conducted on a system equipped with an Nvidia A100 GPU with 40 GB of GPU memory, an AMD EPYC 7713 64-Core Processor @ 1.80GHz with 128 cores, and 1.0TB of RAM, running Ubuntu 20.04.4 LTS. 
+
+- Package(s): 
+    - Python 3.8.18
+    - PyTorch 2.0.1+cu117
+    - numpy 1.22.3
+    - pandas 2.0.3
+    - scikit-learn 1.3.0
+    - matplotlib 3.7.2
