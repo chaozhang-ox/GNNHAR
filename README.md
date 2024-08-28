@@ -26,7 +26,7 @@ The project is organized as follows:
 
 To use the project, follow these steps:
 
-1. Download LOBSTER data (minutely or higher freq) from https://lobsterdata.com/ and save to your local path
+1. Download LOBSTER data (minutely or higher freq) and save to your local path
 2. Run data_subsample.py and compute_vol.py sequentially
 3. Run GHAR.py to obtain the baseline forecasts from linear regressions
 4. Run GNNHAR.py to obtain the forecasts for proposed GNNHAR models
@@ -35,7 +35,7 @@ To use the project, follow these steps:
 
 
 ## Data
-The data used in this reproducibility check is LOBSTER, which users need to purchase. 
+The data used in this reproducibility check is LOBSTER (https://lobsterdata.com/), which needs to be purchased by users.
 
 ## Computing Environment
 To run the reproducibility check, the following computing environment and package(s) are required:
