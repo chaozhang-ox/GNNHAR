@@ -15,7 +15,7 @@ parser.add_argument("--window", type=int, default=22, help="forward-looking peri
 parser.add_argument("--horizon", type=int, default=1, help="forecasting horizon")
 parser.add_argument("--model_name", type=str, default='GHAR', help="model name")
 parser.add_argument("--adj_name", type=str, default='iden+glasso', help="adj choices")
-parser.add_argument("--data_name", type=str, default='DJIA', help="data name")
+parser.add_argument("--universe", type=str, default='DJIA', help="data name")
 parser.add_argument("--version", type=str, default='Forecast_Var', help="version name")
 
 opt = parser.parse_args()
@@ -26,7 +26,7 @@ this_version = '_'.join(
     [opt.version,
      opt.model_name,
      opt.adj_name,
-     opt.data_name,
+     opt.universe,
      'W' + str(opt.window),
      'F' + str(opt.horizon)])
 
