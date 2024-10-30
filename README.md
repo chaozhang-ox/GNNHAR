@@ -1,6 +1,6 @@
 # Forecasting Realized Volatility with Spillover Effects: Perspectives from Graph Neural Networks
 
-This is the README file for the project [Forecasting Realized Volatility with Spillover Effects: Perspectives from Graph Neural Networks](https://www.sciencedirect.com/science/article/pii/S0169207024000967), published in Internation Journal of Forecasting. 
+This is the README file for the project [Forecasting Realized Volatility with Spillover Effects: Perspectives from Graph Neural Networks](https://www.sciencedirect.com/science/article/pii/S0169207024000967), published in [International Journal of Forecasting](https://www.sciencedirect.com/journal/international-journal-of-forecasting). 
 It provides an overview of the project structure and instructions on how to use and contribute to the codebase.
 
 ## Table of Contents
